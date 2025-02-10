@@ -1,0 +1,112 @@
+Great! We'll set up the Admin Panel to manage all essential features, including withdrawal requests, bet history, and other necessary controls.
+I'll ensure nothing important is missed. Let me know how you want the admin dashboard layout and what controls should be included first! 
+
+
+Admin panel
+
+ 1. User Management
+1. User Details:
+   - Display all user details:
+     - Name
+     - Mobile Number
+     - Wallet Balance
+     - Registration Date
+   - Actions:
+     - Update wallet balance (manually add or deduct amount).
+     - Ban user (delete account and block IP address).
+     - View user’s transaction history.
+
+2. Bid History:
+   - View all bids placed by a user.
+
+3. Win History:
+   - View all wins by a user.
+
+---
+
+ 2. Payment Management
+1. Withdrawal Requests:
+   - Display all withdrawal requests with:
+     - User Name
+     - Mobile Number
+     - Amount Requested
+     - Payment Method (e.g., UPI)
+   - Actions:
+     - Accept: Deduct the amount from the user’s wallet and mark as paid.
+     - Reject: Reject the request and notify the user.
+     - Ban User: Ban the user and block their IP address.
+
+2. Payment Settings:
+   - Update UPI ID: Change the UPI ID where payments are received.
+   - Update QR Code: Upload a new QR code image for payments.
+   - Payment Options: Enable/disable payment methods (e.g., PhonePe, GPay, UPI).
+
+
+
+ 
+
+
+3. Telegram Support Management
+1. Telegram Links:
+   - Update Telegram support page link
+
+---
+
+ 4. Running Text (Marquee)
+1. Home Page Running Text:
+   - Add/edit a running text that displays on the home page.
+   - Set the speed of the text (smooth scrolling).
+
+---
+
+ 5. Notifications
+1. Send Notifications:
+   - Send local notifications to all users.
+   - Include:
+     - Title
+     - Image (optional)
+     - Text Description
+   - Notifications should appear on users’ devices with sound.
+
+---
+
+ 6. Admin Settings
+1. Admin Login Details:
+   - Update admin username and password.
+2. Multi-Admin Support:
+   - Add/remove multiple admins.
+   - Assign roles and permissions (e.g., view-only, full access).
+
+---
+
+ 7. Additional Features (Suggested)
+1. IP Banning:
+   - Ban users by IP address to prevent re-registration.
+2. Activity Logs:
+   - Track all admin actions (e.g., wallet updates, user bans).
+3. Export Data:
+   - Export user details, transaction history, and withdrawal requests to CSV/Excel.
+4. Dashboard:
+   - Display key metrics (e.g., total users, total deposits, total withdrawals).
+
+---
+
+ Admin Panel Layout
+
+ Sidebar Menu
+1. Dashboard
+2. User Management
+   - User Details
+   - Bid History
+   - Win History
+3. Payment Management
+   - Withdrawal Requests
+   - Payment Settings
+4. Telegram Support
+5. Running Text
+6. Notifications
+7. Admin Settings
+   - Update Login Details
+   - Multi-Admin Support
+
+
